@@ -1,0 +1,11 @@
+Blood Donation Application UI made using React Native and TypeScript.
+
+Notifys Nearby Donors for donation requests so they can take quick actions.
+
+**Note: Under Development**
+
+**To Run the Project:**
+
+1. npx expo install
+2. npx expo start
+3. press i for ios a for android or Download Expo Go application and scan the QR

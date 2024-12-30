@@ -1,12 +1,20 @@
+import './gesture-handler.native';
+
+import { Text, ThemeProvider } from '@rneui/themed';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import Home from './screens/Home';
+import Login from './screens/Login';
+import MoreOptions from './screens/MoreOptions';
+import StackNavigation from './navigator/StackNavigation';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ThemeProvider>
+      {/* <Login /> */}
+      <StatusBar style='auto' />
+      <StackNavigation />
+    </ThemeProvider>
   );
 }
 
